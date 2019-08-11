@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{1BB1182C-A24F-4B86-AE70-B3FE2492C4F0}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="itera_claims.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\itera_claimsTests.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="itera_claims">
+			<MSBuild Projects="itera_claims.dproj"/>
+		</Target>
+		<Target Name="itera_claims:Clean">
+			<MSBuild Targets="Clean" Projects="itera_claims.dproj"/>
+		</Target>
+		<Target Name="itera_claims:Make">
+			<MSBuild Targets="Make" Projects="itera_claims.dproj"/>
+		</Target>
+		<Target Name="itera_claimsTests">
+			<MSBuild Projects="Test\itera_claimsTests.dproj"/>
+		</Target>
+		<Target Name="itera_claimsTests:Clean">
+			<MSBuild Targets="Clean" Projects="Test\itera_claimsTests.dproj"/>
+		</Target>
+		<Target Name="itera_claimsTests:Make">
+			<MSBuild Targets="Make" Projects="Test\itera_claimsTests.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="itera_claims;itera_claimsTests"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="itera_claims:Clean;itera_claimsTests:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="itera_claims:Make;itera_claimsTests:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

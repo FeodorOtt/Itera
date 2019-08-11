@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019.08.05 19:28:03.638.pas,C:\Users\Feodor\Documents\RAD Studio\Projects\Unit1.pas=X:\current\itera\frmMainU.pas</Transaction>
+    <Transaction>2019.08.05 19:28:03.638.dfm,C:\Users\Feodor\Documents\RAD Studio\Projects\Unit1.dfm=X:\current\itera\frmMainU.dfm</Transaction>
+    <Transaction>2019.08.05 19:28:13.306.dproj,C:\Users\Feodor\Documents\RAD Studio\Projects\Project1.dproj=X:\current\itera\itera_test.dproj</Transaction>
+    <Transaction>2019.08.05 20:09:17.488.pas,X:\current\itera\Unit1.pas=X:\current\itera\dmConnectionU.pas</Transaction>
+    <Transaction>2019.08.05 20:09:17.488.dfm,X:\current\itera\Unit1.dfm=X:\current\itera\dmConnectionU.dfm</Transaction>
+    <Transaction>2019.08.05 21:08:16.698.pas,X:\current\itera\dmConnectionU.pas=</Transaction>
+    <Transaction>2019.08.05 21:08:16.698.dfm,X:\current\itera\dmConnectionU.dfm=</Transaction>
+    <Transaction>2019.08.06 22:49:34.771.pas,X:\current\itera\Unit1.pas=X:\current\itera\frmDetailU.pas</Transaction>
+    <Transaction>2019.08.06 22:49:34.771.dfm,X:\current\itera\Unit1.dfm=X:\current\itera\frmDetailU.dfm</Transaction>
+    <Transaction>2019.08.06 22:51:45.712.pas,X:\current\itera\frmDetailU.pas=X:\current\itera\frmClaimEditU.pas</Transaction>
+    <Transaction>2019.08.06 22:51:45.712.dfm,X:\current\itera\frmDetailU.dfm=X:\current\itera\frmClaimEditU.dfm</Transaction>
+    <Transaction>2019.08.08 01:01:56.336.pas,X:\current\itera\Unit1.pas=X:\current\itera\Controller.pas</Transaction>
+    <Transaction>2019.08.08 01:16:25.667.pas,X:\current\itera\Controller.pas=X:\current\itera\ControllerU.pas</Transaction>
+    <Transaction>2019.08.09 14:41:59.008.dproj,X:\current\itera\itera_test.dproj=X:\current\itera\itera_claims.dproj</Transaction>
+    <Transaction>2019.08.09 14:55:48.472.pas,X:\current\itera\frmMainU.pas=X:\current\itera\frmClaimU.pas</Transaction>
+    <Transaction>2019.08.09 14:55:48.472.dfm,X:\current\itera\frmMainU.dfm=X:\current\itera\frmClaimU.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

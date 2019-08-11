@@ -1,4 +1,4 @@
-# Itera
+# Insurance Claim Handling.
 Project has been coded with Delphi 2010 and Microsoft SQL Server 2008 R2.
 
 Steps to run the project:

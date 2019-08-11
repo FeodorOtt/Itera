@@ -11,7 +11,7 @@ Steps to run the project:
 6. When connection is established press "Refresh" button or F5 key.
 7. If you see the grid filled with the data you've got it!
 
-Steps to run Unit-testing
+Steps to run Unit-testing:
 
 1. Open "Test\itera_claimsTests.dpr" in Delphi 2010.
 2. Compile and run it.

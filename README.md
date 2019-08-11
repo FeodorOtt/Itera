@@ -5,7 +5,7 @@ Steps to run the project:
 
 1. Download all the files with folders.
 2. Import database by runnig the script "\DB\itera_test.sql" in MS SQL Server Management Studio.
-3. Open itera_claims.dpr in Delphi 2010.
+3. Open "itera_claims.dpr" in Delphi 2010.
 4. Compile and run it.
 5. Press "Settings" button to set connection to the imported database named "itera_claims" with the standard Windows tool. If for some reasons it doesn't open just edit the connection file "\DB\connection.udl".
 6. When connection is established press "Refresh" button or F5 key.

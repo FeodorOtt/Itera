@@ -1,5 +1,5 @@
 # Insurance Claim Handling.
-Project has been coded with Delphi 2010 and Microsoft SQL Server 2008 R2.
+Project has been coded with Delphi 2010 and Microsoft SQL Server 2008 R2. There are only native Delphi components in the project with no use of the DB aware controls.
 
 Steps to run the project:
 

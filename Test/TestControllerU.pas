@@ -108,7 +108,7 @@ begin
   Year:= 2010;
   ID := -1;
   ReturnValue := FDataManipulations.UpdateRecord(ID, Year, _Name, TypeID, GrossClaim, Deductible);
-  CheckEquals(True, ReturnValue, 'The record haven''t been updated');
+  CheckEquals(True, ReturnValue, 'The record haven''t been inserted');
 
   Deductible := 10.33;
   GrossClaim := 10000.66;
